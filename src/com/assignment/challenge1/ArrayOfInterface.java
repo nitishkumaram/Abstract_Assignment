@@ -35,7 +35,7 @@ public class ArrayOfInterface{
 		
 		//loop for input value
 		for(int limit=0; limit<10; limit++){
-			System.out.println("Enter " + (limit+1)+ "Instrument name: ");
+			System.out.println("Enter " + (limit+1)+ " Instrument name: ");
 			String type= sc.next();
 			try{
 				Instrument obj= getObject(type);		// super class holding child class object
